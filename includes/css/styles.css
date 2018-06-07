@@ -1,0 +1,246 @@
+p{font-family: 'Bree Serif';} /*google font*/
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+ .navbar {
+  height: 180px;
+  background-color: gray;
+  opacity: 0.7;
+  width: 100%;
+  text-transform: uppercase;
+  color: black;
+
+}
+
+
+h1{/* for main heading*/
+	font-size: 40px;
+	margin-top: 20px;
+	margin-left: 20px;
+	text-shadow: 2px 2px red;
+	width: 30%;
+	float: left;
+
+
+}
+.navbar-nav{margin-top: 70px;
+
+}
+.navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
+    color: cyan;
+    background-color: gainsboro;
+    
+
+}
+.navbar-nav>.active>a{
+	color: red;
+    background-color: ;
+    
+
+}
+.navbar-nav>.dropdown>a{
+	color: red;
+	margin-top: 0px;
+
+}
+
+.navbar-toggle{
+	float: right;
+}
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 50px;
+  padding: 9px 10px !important;
+  margin-right: 10px;
+}
+
+.dropdown-toggle{
+	color: red;
+	margin-top: 50px;
+}
+
+
+
+
+
+.content{margin: 30px;}
+
+/*jumbotron*/
+
+.jumbotron{
+	background-color: papayawhip;margin: 30px;
+}
+
+
+.row{
+	width: 100%;align-content: center;
+}
+
+/* carousel*/
+
+
+#myCarousel {
+	margin-top: 60px;
+}
+
+.carousel-caption {
+	font-size: 24px;
+}
+
+.carousel-caption h4 {
+	font-size: 32px;
+}
+
+.carousel-control.left {
+    margin-left: 30px;
+    margin-top: 130px;
+}
+.carousel-control.right {
+    margin-right: 30px;
+    margin-top: 130px;
+}
+
+#myCarousel .item { height: 400px; }
+
+#slide1 {margin-top: 130px;
+		background: url('../../images/111.jpg') top center no-repeat;
+	}
+	
+#slide2 {margin-top: 130px;
+		background: url('../../images/122.jpg') top center no-repeat;
+	}
+	
+#slide3 {margin-top: 130px;
+		background: url('../../images/133.jpg') top center no-repeat;
+	}
+
+.carousel-inner{
+	background-color: transparent;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+	#myCarousel .item { height: 310px; }
+	#myCarousel {border-color: gainsboro;}
+	.imageallign img{width: 190px;}
+	#slide1 {
+		background: url('../../images/1111.jpg') top center no-repeat;
+		margin-top: 130px;
+	}
+	
+	#slide2 {
+		background: url('../../images/1222.jpg') top center no-repeat;
+	margin-top: 130px;}
+	
+	#slide3 {
+		background: url('../../images/1333.jpg') top center no-repeat;
+	margin-top: 130px;}
+	
+	.carousel-caption {
+		font-size: 16px;
+	}
+	
+	.carousel-caption h4 {
+		font-size: 22px;
+	}
+	.carousel-control.left {
+    margin-left: 2px;
+    margin-top: 130px;
+}
+.carousel-control.right {
+    margin-right: 2px;
+    margin-top: 130px;
+}
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	#myCarousel .item { height: 500px; }
+	
+	#slide1 {
+		background: url('../../images/12.jpg') top center no-repeat;margin-top: 
+	margin-top: 130px;}
+	
+	#slide2 {
+		background: url('../../images/11.jpg') top center no-repeat;margin-top: 130px;
+	}
+	
+	#slide3 {
+		background: url('../../images/13.jpg') top center no-repeat;margin-top: 130px;
+	}
+
+}
+
+
+footer{background-color: #333;text-align: center; margin-top: 50px; }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+h6{
+	margin-right: 10px;
+	color: white;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;margin: 20px;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin: 20px;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;margin: 20px;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;margin: 20px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;margin: 20px;
+}
